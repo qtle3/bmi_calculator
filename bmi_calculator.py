@@ -1,6 +1,6 @@
 def bmi_calculator(w, h):
     # Calculate BMI
-    BMI = w * 720 / (h**2)
+    BMI = w * 703 / (h**2)
     return BMI
 
 
