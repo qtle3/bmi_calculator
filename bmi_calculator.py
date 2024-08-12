@@ -16,7 +16,7 @@ def BMI():
     # Determine if BMI is within healthy range
     if BMI >= 19 and BMI <= 26:
         print("within healthy range")
-    elif BMI > 26:
+    elif BMI < 26:
         print("below healthy range")
     else:
         print("above healthy range")
